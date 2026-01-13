@@ -1,0 +1,965 @@
+nohup: ignoring input
+[20:25:10][INFO ][src/gps.c:13] GPS: Mock Mode Initialized.
+--- Integrated V2X System (vT11) Start ---
+[MAIN] Mode: HARDWARE
+[20:25:11][INFO ][src/sec.c:61] Thread 2: Security RX Module started.
+[20:25:11][INFO ][src/wl.c:56] Thread 1: Wireless RX Module started.
+[20:25:11][INFO ][src/pkt.c:237]   - PKT-RX Sub-thread started.
+[20:25:11][INFO ][src/sec.c:41] Thread 7: Security TX Module started.
+[20:25:11][INFO ][src/wl.c:80] Thread 8: Wireless TX Module started.
+[20:25:11][INFO ][src/gps.c:34] Thread 7: GPS Client Module started.
+[20:25:11][INFO ][src/pkt.c:37]   - PKT-TX Sub-thread started (Dual-Path Aggregation).
+[20:25:11][INFO ][src/val.c:61] Thread 4: VAL Controller started.
+[20:25:11][INFO ][src/yocto_if.c:157] Thread 9: Yocto Interface Module started.
+[GPS-FIXED] 차2 위치: Lat 37.561800, Lon 126.978000, Alt 15.0
+[GPS-FIXED] 차2 위치: Lat 37.561800, Lon 126.978000, Alt 15.0
+[GPS-FIXED] 차2 위치: Lat 37.561800, Lon 126.978000, Alt 15.0
+[GPS-FIXED] 차2 위치: Lat 37.561800, Lon 126.978000, Alt 15.0
+[GPS-FIXED] 차2 위치: Lat 37.561800, Lon 126.978000, Alt 15.0
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:34:00][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x9999999999999999)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x9999999999999999 패킷 중계 큐 삽입
+[20:34:01][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:34:01][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x0)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x0 패킷 중계 큐 삽입
+[20:34:02][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:34:08][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x9999999999999999)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x9999999999999999 패킷 중계 큐 삽입
+[20:34:09][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:34:09][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x9999999999999999)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x9999999999999999 패킷 중계 큐 삽입
+[20:34:10][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:34:24][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x9999999999999999)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x9999999999999999 패킷 중계 큐 삽입
+[20:34:25][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:34:31][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x9999999999999999)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x9999999999999999 패킷 중계 큐 삽입
+[20:34:32][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:34:32][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x9999999999999999)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x9999999999999999 패킷 중계 큐 삽입
+[20:34:33][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:34:37][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x9999999999999999)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x9999999999999999 패킷 중계 큐 삽입
+[20:34:38][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:34:41][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x9999999999999999)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x9999999999999999 패킷 중계 큐 삽입
+[20:34:41][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:34:42][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x9999999999999999)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x9999999999999999 패킷 중계 큐 삽입
+[20:34:43][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:34:44][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x9999999999999999)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x9999999999999999 패킷 중계 큐 삽입
+[20:34:45][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:34:46][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x9999999999999999)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x9999999999999999 패킷 중계 큐 삽입
+[20:34:47][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:34:47][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x9999999999999999)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x9999999999999999 패킷 중계 큐 삽입
+[20:34:48][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:34:53][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x9999999999999999)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x9999999999999999 패킷 중계 큐 삽입
+[20:34:54][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:34:55][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x9999999999999999)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x9999999999999999 패킷 중계 큐 삽입
+[20:34:56][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:35:06][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x9999999999999999)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x9999999999999999 패킷 중계 큐 삽입
+[20:35:07][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+[GPS-FIXED] 차2 위치: Lat 37.561800, Lon 126.978000, Alt 15.0
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:35:14][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x0)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x0 패킷 중계 큐 삽입
+[20:35:14][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x0, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:35:21][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x9999999999999999)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x9999999999999999 패킷 중계 큐 삽입
+[20:35:21][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:35:22][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x0)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x0 패킷 중계 큐 삽입
+[20:35:23][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:35:30][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x9999999999999999)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x9999999999999999 패킷 중계 큐 삽입
+[20:35:31][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:35:34][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x0)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x0 패킷 중계 큐 삽입
+[20:35:35][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:35:36][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x9999999999999999)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x9999999999999999 패킷 중계 큐 삽입
+[20:35:37][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:35:38][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x9999999999999999)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x9999999999999999 패킷 중계 큐 삽입
+[20:35:39][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:35:39][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x9999999999999999)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x9999999999999999 패킷 중계 큐 삽입
+[20:35:40][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:35:43][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x0)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x0 패킷 중계 큐 삽입
+[20:35:44][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:35:46][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x0)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x0 패킷 중계 큐 삽입
+[20:35:47][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x0, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:35:49][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x9999999999999999)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x9999999999999999 패킷 중계 큐 삽입
+[20:35:50][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:35:50][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x9999999999999999)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x9999999999999999 패킷 중계 큐 삽입
+[20:35:51][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:35:58][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x0)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x0 패킷 중계 큐 삽입
+[20:35:59][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x0, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:36:08][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x9999999999999999)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x9999999999999999 패킷 중계 큐 삽입
+[20:36:09][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:36:12][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x9999999999999999)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x9999999999999999 패킷 중계 큐 삽입
+[20:36:13][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:36:15][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x9999999999999999)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x9999999999999999 패킷 중계 큐 삽입
+[20:36:15][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:36:22][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x9999999999999999)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x9999999999999999 패킷 중계 큐 삽입
+[20:36:23][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:36:24][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x9999999999999999)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x9999999999999999 패킷 중계 큐 삽입
+[20:36:25][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:36:27][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x9999999999999999)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x9999999999999999 패킷 중계 큐 삽입
+[20:36:28][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:36:30][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x9999999999999999)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x9999999999999999 패킷 중계 큐 삽입
+[20:36:31][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:36:32][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x0)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x0 패킷 중계 큐 삽입
+[20:36:33][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:36:33][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x9999999999999999)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x9999999999999999 패킷 중계 큐 삽입
+[20:36:34][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:36:38][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x0)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x0 패킷 중계 큐 삽입
+[20:36:39][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:36:40][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x9999999999999999)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x9999999999999999 패킷 중계 큐 삽입
+[20:36:41][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:36:47][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x0)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x0 패킷 중계 큐 삽입
+[20:36:48][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x0, Dist: 801.5m
+[GPS-FIXED] 차2 위치: Lat 37.561800, Lon 126.978000, Alt 15.0
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:36:51][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x9999999999999999)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x9999999999999999 패킷 중계 큐 삽입
+[20:36:52][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:36:54][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x9999999999999999)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x9999999999999999 패킷 중계 큐 삽입
+[20:36:55][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:36:55][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x9999999999999999)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x9999999999999999 패킷 중계 큐 삽입
+[20:36:56][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:36:56][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x0)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x0 패킷 중계 큐 삽입
+[20:36:57][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:37:00][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x9999999999999999)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x9999999999999999 패킷 중계 큐 삽입
+[20:37:01][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:37:15][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x9999999999999999)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x9999999999999999 패킷 중계 큐 삽입
+[20:37:15][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:37:20][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x9999999999999999)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x9999999999999999 패킷 중계 큐 삽입
+[20:37:21][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:37:21][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x9999999999999999)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x9999999999999999 패킷 중계 큐 삽입
+[20:37:22][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:37:22][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x9999999999999999)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x9999999999999999 패킷 중계 큐 삽입
+[20:37:23][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:37:23][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x9999999999999999)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x9999999999999999 패킷 중계 큐 삽입
+[20:37:24][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:37:25][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x9999999999999999)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x9999999999999999 패킷 중계 큐 삽입
+[20:37:26][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:37:27][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x0)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x0 패킷 중계 큐 삽입
+[20:37:28][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:37:33][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x0)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x0 패킷 중계 큐 삽입
+[20:37:34][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x0, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:37:44][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x9999999999999999)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x9999999999999999 패킷 중계 큐 삽입
+[20:37:45][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:37:47][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x9999999999999999)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x9999999999999999 패킷 중계 큐 삽입
+[20:37:48][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:37:52][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x9999999999999999)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x9999999999999999 패킷 중계 큐 삽입
+[20:37:53][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:37:54][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x0)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x0 패킷 중계 큐 삽입
+[20:37:55][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:37:55][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x9999999999999999)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x9999999999999999 패킷 중계 큐 삽입
+[20:37:56][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:37:58][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x9999999999999999)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x9999999999999999 패킷 중계 큐 삽입
+[20:37:59][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:38:02][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x9999999999999999)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x9999999999999999 패킷 중계 큐 삽입
+[20:38:03][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:38:04][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x9999999999999999)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x9999999999999999 패킷 중계 큐 삽입
+[20:38:05][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:38:09][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x0)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x0 패킷 중계 큐 삽입
+[20:38:09][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:38:11][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x9999999999999999)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x9999999999999999 패킷 중계 큐 삽입
+[20:38:11][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+[GPS-FIXED] 차2 위치: Lat 37.561800, Lon 126.978000, Alt 15.0
+[GPS-FIXED] 차2 위치: Lat 37.561800, Lon 126.978000, Alt 15.0
+[GPS-FIXED] 차2 위치: Lat 37.561800, Lon 126.978000, Alt 15.0
+[GPS-FIXED] 차2 위치: Lat 37.561800, Lon 126.978000, Alt 15.0
+[GPS-FIXED] 차2 위치: Lat 37.561800, Lon 126.978000, Alt 15.0
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:45:23][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x0)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x0 패킷 중계 큐 삽입
+[20:45:24][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x0, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:46:02][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x9999999999999999)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x9999999999999999 패킷 중계 큐 삽입
+[20:46:03][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+[20:46:03][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x0)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+pushing to q_rx_sec_rx.
+
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x0 패킷 중계 큐 삽입
+[20:46:04][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:46:22][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x1111, Accident: 0x0)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x1111
+[CHECK-VAL] 수신: From 0x1111, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x0 패킷 중계 큐 삽입
+[20:46:23][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x0, Dist: 801.5m
+[20:46:23][INFO ][src/pkt.c:109] [PKT-TX] WL-1 전체 패킷 조립 완료 (SenderID: 0x3333)
+
+[1;32m[T8-TX] WL-1 Broadcast Success! (ID: 0x3333, ACC: 0x0)[0m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:46:30][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x0)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x0 패킷 중계 큐 삽입
+[20:46:31][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x0, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:46:32][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x9999999999999999)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x9999999999999999 패킷 중계 큐 삽입
+[20:46:33][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:46:35][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x0)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x0 패킷 중계 큐 삽입
+[20:46:36][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:46:40][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x9999999999999999)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x9999999999999999 패킷 중계 큐 삽입
+[20:46:40][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+[GPS-FIXED] 차2 위치: Lat 37.561800, Lon 126.978000, Alt 15.0
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:46:59][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x0)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x0 패킷 중계 큐 삽입
+[20:47:00][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x0, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:47:29][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x9999999999999999)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x9999999999999999 패킷 중계 큐 삽입
+[20:47:30][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:47:31][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x9999999999999999)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x9999999999999999 패킷 중계 큐 삽입
+[20:47:32][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:47:33][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x9999999999999999)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x9999999999999999 패킷 중계 큐 삽입
+[20:47:34][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+[GPS-FIXED] 차2 위치: Lat 37.561800, Lon 126.978000, Alt 15.0
+[GPS-FIXED] 차2 위치: Lat 37.561800, Lon 126.978000, Alt 15.0
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:51:25][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x9999999999999999)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x9999999999999999 패킷 중계 큐 삽입
+[20:51:26][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+[GPS-FIXED] 차2 위치: Lat 37.561800, Lon 126.978000, Alt 15.0
+[GPS-FIXED] 차2 위치: Lat 37.561800, Lon 126.978000, Alt 15.0
+[GPS-FIXED] 차2 위치: Lat 37.561800, Lon 126.978000, Alt 15.0
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:55:11][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x9999999999999999)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x9999999999999999 패킷 중계 큐 삽입
+[20:55:12][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:55:18][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x9999999999999999)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x9999999999999999 패킷 중계 큐 삽입
+[20:55:19][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:55:25][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x0)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x0 패킷 중계 큐 삽입
+[20:55:26][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x0, Dist: 801.5m
+[GPS-FIXED] 차2 위치: Lat 37.561800, Lon 126.978000, Alt 15.0
+[GPS-FIXED] 차2 위치: Lat 37.561800, Lon 126.978000, Alt 15.0
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:58:49][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x9999999999999999)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x9999999999999999 패킷 중계 큐 삽입
+[20:58:50][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[20:58:59][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x9999999999999999)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x9999999999999999 패킷 중계 큐 삽입
+[20:59:00][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+[GPS-FIXED] 차2 위치: Lat 37.561800, Lon 126.978000, Alt 15.0
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[21:00:38][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x9999999999999999)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x9999999999999999 패킷 중계 큐 삽입
+[21:00:40][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x9999999999999999, Dist: 801.5m
+
+[1;32m[T1-RX] Packet Received![0m
+pushing to q_rx_sec_rx.
+
+[21:00:55][INFO ][src/pkt.c:252] PKT-RX: Incoming Packet (Sender: 0x2222, Accident: 0x0)
+[DEBUG-PKT] Packet pushed to q_pkt_val
+[DEBUG-VAL] >>> VAL Controller Got Data! From: 0x2222
+[CHECK-VAL] 수신: From 0x2222, 거리:801.50m, 고도차:0.0m, 방향차:30도
+[1;32m[VAL-WARN] 동일 방향 사고! LCD 출력 시도[0m
+[RELAY-ACT] 사고 0x0 패킷 중계 큐 삽입
+[21:00:56][INFO ][src/val.c:182] VAL: Reporting Nearest -> ID: 0x0, Dist: 801.5m
